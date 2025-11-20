@@ -1,0 +1,50 @@
+#container {
+    display: inline-block;
+}
+
+hr { 
+    height: 5px;
+    width: 100%;
+    top: 55.5%;
+    position: absolute;
+}
+
+#obstacles {
+    display: inline-block;
+}
+
+#obstacle1, #obstacle2, #obstacle3 {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 450px;
+    background-color: black;
+}
+
+#message {
+    font-size: xx-large;
+    left: 40%;
+    top: 10%;
+    position: absolute;
+}
+
+#obstacle1 {
+    left: 600px;
+}
+
+#obstacle2 {
+    left: 900px;
+}
+
+#obstacle3 { 
+    left: 1300px;
+}
+
+#trex {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    top: 440px;
+    margin-left: 15%;
+}

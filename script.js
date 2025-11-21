@@ -47,7 +47,6 @@ function generateGame() {
             frame(obstacle, pos, initialPos);
             --pos;
         }, 5)
-        id = setInterval(frame, 10 * 1000, obstacle, pos - 1, initialPos);
     }
 }
 
